@@ -36,7 +36,7 @@ public class A9Gui extends JFrame {
             Class.forName("oracle.jdbc.OracleDriver");
 
   //oracle connection
-            String url = "jdbc:oracle:thin:@localhost:1521/XEPDB1";
+            String url = "jdbc:oracle:thin:@localhost:1522/xe";
 
             conn = DriverManager.getConnection(url, username, password);
             conn.setAutoCommit(false);
